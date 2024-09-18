@@ -87,35 +87,68 @@ const CourseInfo = {
  // try catch error
     try{
         if(course.id !==AssignmentGroup.course_id) throw `Course ID doesn't match`
-            
         } catch (err) {
             console.error(err)
         }
       }
 
-      console.log(result);
+      
 
 
     try {
       if (isNaN) throw 'Not a valid grade'
     } catch (err) {
       console.error(err)
-
     }
-        console.log(result);
 
-      // Calculate the average score
+   
+
+    //   // Calculate the average score
+
+        let numbers1 = [ 47, 150, 400 ];
+
+        function average(numbers1){
+          let sum = 0;
+        }
+
+        for (let i = 0; i < numbers1.length; i++) {
+          sum += numbers1[i];
+          
+          return sum / numbers1.length;
+        }
+
+        let avg = average(numbers1);
+        console.log(avg);
+
+        
+
+
+   
+     
+
+
+
+   
 
       
 
-      let grade1 = [ 47, 150, 400];
-      let grade2 = [ 39, 140];
-      let average = 0;
-      for(let i = 0; i <grade1.length; i++){
-        average = total/grades.length;
-      }
+      // let grade1 = [ 47, 150, 400];
+      // let total = 0;
+      // let average = total
+      // for(let i = 0; i <grade1.length; i++)
+      //   { total += grade1[1];
+      // }
 
-      console.log(average)
+      // console.log(average);
+
+
+      // let grade2 = [ 39, 140];
+      // let average = 0;
+      // for(let i = 0; i <grade1.length; i++){
+      //   average = total/grades.length;
+      // }
+
+      // console.log(average)
 
 
   // function getLearnerData(course, ag, submissions) {
@@ -140,5 +173,6 @@ const CourseInfo = {
   
 //   const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
   
-//   console.log(result);
-  
+//   console.log(result)
+
+    // }
