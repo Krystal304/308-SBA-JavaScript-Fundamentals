@@ -143,15 +143,15 @@ const CourseInfo = {
 
 
       // calculate late score
-      let submitted = submitted;
-      let due_at = dueDate;
-      let grade = 100;
+      let submitted_at= Date;
+      let due_at = Date;
+      let newGrades= 100;
 
-      if (submitted >  due_at) {
+      if (submitted_at > Date) {
 
-        grades = Math.max (0, grades - (grade * 0.15))
+        newGrades = Math.max (0, grades - (grade * 0.15));
       }
-        console.log(grade);
+        console.log(newGrades);
        
         
 
