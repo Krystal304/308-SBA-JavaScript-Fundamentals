@@ -103,6 +103,19 @@ const CourseInfo = {
 
    
 
+    // id number
+     let array1 = [ `learner_id`, `assignment_id`, `submission`];
+     for (let index of array1) {
+      console.log(index);
+     }
+
+
+
+
+
+      
+
+
     //   // Calculate the average score
       // student id 125
     const grades = [ (47 + 150) / (50 + 150)];
