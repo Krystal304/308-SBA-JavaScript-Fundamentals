@@ -104,10 +104,8 @@ const CourseInfo = {
    
 
     // id number
-     let array1 = [ `learner_id`, `assignment_id`, `submission`];
-     for (let index of array1) {
-      console.log(index);
-     }
+
+     
 
   
 
@@ -152,7 +150,12 @@ const CourseInfo = {
 
     console.log(myNewArray)
   
-
+    // id number
+    let array1 = [ `learner_id`, `assignment_id`, `submission`];
+    for (let index of array1) {
+     myArray.push(index);
+    }
+   console.log(myArray)
 
       // calculate late score
       let submitted_at= Date;
