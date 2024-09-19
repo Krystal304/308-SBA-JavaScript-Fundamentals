@@ -104,9 +104,10 @@ const CourseInfo = {
    
 
     //   // Calculate the average score
-
+      // student id 125
     const grades = [ (47 + 150) / (50 + 150)];
-    const grades2 = [ (39 + 125) / (50 + 150)];
+    const grades1 = [ (47 / 50)]
+    const grades2 = [ (150 / 150)]
     
     function getAvg(grades) {
       if (grades.length === 0) return 'Empty grades array';
@@ -114,8 +115,26 @@ const CourseInfo = {
     }
     
     console.log(getAvg(grades));
+    console.log(getAvg(grades1));
     console.log(getAvg(grades2));
 
+    // calculate the average score
+    // student id 132
+
+    // const grades2 = [ (39 + 125) / (50 + 150)];
+    const grades3 = [ (47 + 150) / (50 + 150)];
+    const grades4 = [ (39 / 50)]
+    const grades5 = [ ((140 - 15) / 150)]
+    
+    function getAvg(grades) {
+      if (grades.length === 0) return 'Empty grades array';
+      return grades.reduce((acc, c) => acc + c, 0) / grades.length;
+    }
+    
+    console.log(getAvg(grades3));
+    console.log(getAvg(grades4));
+    console.log(getAvg(grades5));
+      // calculate late score
        
         
 
