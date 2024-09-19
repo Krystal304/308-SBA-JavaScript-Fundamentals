@@ -105,21 +105,18 @@ const CourseInfo = {
 
     //   // Calculate the average score
 
-        let numbers1 = [ 47, 150, 400 ];
+    const grades = [ (47 + 150) / (50 + 150)];
+    const grades2 = [ (39 + 125) / (50 + 150)];
+    
+    function getAvg(grades) {
+      if (grades.length === 0) return 'Empty grades array';
+      return grades.reduce((acc, c) => acc + c, 0) / grades.length;
+    }
+    
+    console.log(getAvg(grades));
+    console.log(getAvg(grades2));
 
-        function average(numbers1){
-          let sum = 0;
-        }
-
-        for (let i = 0; i < numbers1.length; i++) {
-          sum += numbers1[i];
-          
-          return sum / numbers1.length;
-        }
-
-        let avg = average(numbers1);
-        console.log(avg);
-
+       
         
 
 
@@ -129,26 +126,6 @@ const CourseInfo = {
 
 
    
-
-      
-
-      // let grade1 = [ 47, 150, 400];
-      // let total = 0;
-      // let average = total
-      // for(let i = 0; i <grade1.length; i++)
-      //   { total += grade1[1];
-      // }
-
-      // console.log(average);
-
-
-      // let grade2 = [ 39, 140];
-      // let average = 0;
-      // for(let i = 0; i <grade1.length; i++){
-      //   average = total/grades.length;
-      // }
-
-      // console.log(average)
 
 
   // function getLearnerData(course, ag, submissions) {
