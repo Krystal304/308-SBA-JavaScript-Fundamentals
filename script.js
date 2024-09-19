@@ -156,6 +156,8 @@ const CourseInfo = {
        console.log ("not late")
        
 
+       switch (newGrades)
+
         
        
         
