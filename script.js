@@ -109,13 +109,6 @@ const CourseInfo = {
       console.log(index);
      }
 
-
-
-
-
-      
-
-
     //   // Calculate the average score
       // student id 125
     const grades = [ (47 + 150) / (50 + 150)];
@@ -147,7 +140,18 @@ const CourseInfo = {
     console.log(getAvg(grades3));
     console.log(getAvg(grades4));
     console.log(getAvg(grades5));
+
+
       // calculate late score
+      let submitted = submitted;
+      let due_at = dueDate;
+      let grade = 100;
+
+      if (submitted >  due_at) {
+
+        grades = Math.max (0, grades - (grade * 0.15))
+      }
+        console.log(grade);
        
         
 
