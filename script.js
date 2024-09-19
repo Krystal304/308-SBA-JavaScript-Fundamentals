@@ -150,13 +150,26 @@ const CourseInfo = {
       if (submitted_at > Date) {
 
         newGrades = Math.max (0, grades - (grade * 0.15));
-        console.log("late")
+        newGrades = "late";
 
-      } else (submitted_at <= Date)
-       console.log ("not late")
+      } else {
+      (submitted_at <= Date) 
+        newGrades = "onTime"
+
+        switch(newGrades) {
+          case 'onTime':
+            console.log ('onTime');
+            break;
+          case 'late':
+            console.log(`late`)
+            break;
+         
+        }
+    
+      }
+
        
-
-       switch (newGrades)
+      
 
         
        
