@@ -163,10 +163,12 @@ const CourseInfo = {
           case 'late':
             console.log(`late`)
             break;
-         
+
+            
         }
-    
+  
       }
+
 
 
   // function getLearnerData(course, ag, submissions) {
