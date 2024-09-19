@@ -109,6 +109,8 @@ const CourseInfo = {
       console.log(index);
      }
 
+  
+
     //   // Calculate the average score
       // student id 125
     const grades = [ (47 + 150) / (50 + 150)];
@@ -120,10 +122,14 @@ const CourseInfo = {
       return grades.reduce((acc, c) => acc + c, 0) / grades.length;
     }
     
-    console.log(getAvg(grades));
-    console.log(getAvg(grades1));
-    console.log(getAvg(grades2));
+    let myArray = []
+   
 
+    myArray.push(getAvg(grades));
+    myArray.push(getAvg(grades1));
+    myArray.push(getAvg(grades2));
+
+    console.log(myArray)
     // calculate the average score
     // student id 132
 
@@ -137,9 +143,15 @@ const CourseInfo = {
       return grades.reduce((acc, c) => acc + c, 0) / grades.length;
     }
     
-    console.log(getAvg(grades3));
-    console.log(getAvg(grades4));
-    console.log(getAvg(grades5));
+    let myNewArray = []
+   
+
+    myNewArray.push(getAvg(grades3));
+    myNewArray.push(getAvg(grades4));
+    myNewArray.push(getAvg(grades5));
+
+    console.log(myNewArray)
+  
 
 
       // calculate late score
@@ -168,6 +180,10 @@ const CourseInfo = {
         }
   
       }
+
+
+
+
 
 
 
