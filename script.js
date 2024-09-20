@@ -101,13 +101,6 @@ const CourseInfo = {
       console.error(err)
     }
 
-   
-
-    // id number
-
-     
-
-  
 
     //   // Calculate the average score
       // student id 125
@@ -151,7 +144,7 @@ const CourseInfo = {
     console.log(myNewArray)
   
     // id number
-    let array1 = [ `learner_id`, `assignment_id`, `submission`];
+    let array1 = [ `id`, `avg`, 1, 2 ];
     for (let index of array1) {
      myArray.push(index);
     }
