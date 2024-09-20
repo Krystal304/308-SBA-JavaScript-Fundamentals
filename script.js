@@ -125,7 +125,7 @@ const CourseInfo = {
     myArray.push(getAvg(grades1));
     myArray.push(getAvg(grades2));
 
-    console.log(myArray)
+
     // calculate the average score
     // student id 132
 
@@ -147,6 +147,7 @@ const CourseInfo = {
     myNewArray.push(getAvg(grades5));
 
     console.log(myNewArray)
+    console.log(myArray)
   
 
 
