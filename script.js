@@ -116,7 +116,7 @@ const CourseInfo = {
     
     let myArray = []
    
-    let array1 = [ `id: 125`, `avg`, 1, 2 ];
+    let array1 = [ `id: 125`, `id: 132`,`avg`, 1, 2 ];
     for (let index of array1) {
      myArray.push(index);
     }
