@@ -101,6 +101,7 @@ const CourseInfo = {
       console.error(err)
     }
 
+    
 
     //   // Calculate the average score
       // student id 125
@@ -115,7 +116,11 @@ const CourseInfo = {
     
     let myArray = []
    
-
+    let array1 = [ `id: 125`, `avg`, 1, 2 ];
+    for (let index of array1) {
+     myArray.push(index);
+    }
+   console.log(myArray)
     myArray.push(getAvg(grades));
     myArray.push(getAvg(grades1));
     myArray.push(getAvg(grades2));
@@ -143,12 +148,7 @@ const CourseInfo = {
 
     console.log(myNewArray)
   
-    // id number
-    let array1 = [ `id`, `avg`, 1, 2 ];
-    for (let index of array1) {
-     myArray.push(index);
-    }
-   console.log(myArray)
+
 
       // calculate late score
       let submitted_at= Date;
